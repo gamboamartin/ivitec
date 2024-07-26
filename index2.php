@@ -8,6 +8,12 @@
     <link href="./css/layout.css" rel="stylesheet">
 </head>
 <body>
+<nav class="navbar navbar-light bg-black">
+    <div class="container-fluid">
+        <img class="img-fluid logo" src="logo.webp">
+    </div>
+</nav>
+
 <div class="accordion accordion-flush" id="accordionFlushExample">
     <div class="accordion-item border-0">
         <h2 class="accordion-header" id="flush-headingOne">
@@ -23,6 +29,7 @@
     <div class="accordion-item border-0">
         <h2 class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button collapsed bg-black text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <img class="icono" src="saludo.blanco.webp">
                 Que te parece si nos conocemos?
             </button>
         </h2>
