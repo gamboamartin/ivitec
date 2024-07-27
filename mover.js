@@ -39,20 +39,23 @@ function getRandomInt(min, max) {
 }
 setInterval(function(){
         mueve(test);
-        mueve(test);
         },
     10
 );
 
-
 test.addEventListener(
-    "mouseenter",
+    "mouseover",
     (event) => {
-            mueve(event.target,200);
-            setTimeout(function(){
-                        alert('Deja que paseé libre por aqui, no te distraigas sigue leyendo !!!');
+            mueve(event.target,150);
+        const myModal = new bootstrap.Modal('#exampleModal', {
+            keyboard: false
+        });
+        const modalToggle = document.getElementById('toggleMyModal');
+
+        setTimeout(function(){
+                myModal.show(modalToggle);
                 },
-                75
+                300
             );
 
     },

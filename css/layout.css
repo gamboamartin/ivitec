@@ -45,3 +45,8 @@ body{
     cursor: pointer;
     width: 30px;
 }
+
+.logo-modal .logo{
+    width: 150px;
+    padding: 2px;
+}
