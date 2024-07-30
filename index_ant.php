@@ -22,7 +22,7 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><img class="icono" src="casita.blanca.webp">Bienvenidos</a>
+                        <a class="nav-link active" aria-current="page" href="#"><img class="icono" src="img/casita.blanca.webp">Bienvenidos</a>
                     </li>
                     <li class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <a class="nav-link" href="#">Que te parece si nos conocemos?</a>

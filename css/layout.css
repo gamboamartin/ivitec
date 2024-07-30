@@ -50,3 +50,11 @@ body{
     width: 150px;
     padding: 2px;
 }
+
+.bg-arbol{
+    background-image: url(../img/arbol.webp);
+    opacity: .995;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

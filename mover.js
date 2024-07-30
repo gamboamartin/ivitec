@@ -1,19 +1,19 @@
-let test = document.getElementById("mover");
-let coords = test.getBoundingClientRect();
-let postop = Math.ceil(coords.top);
-let posleft = Math.ceil(coords.left);
-test.style.position = 'fixed';
+let mariposa = document.getElementById("mariposa");
+let coordenadasMariposa = mariposa.getBoundingClientRect();
+let posicionTopMariposa = Math.ceil(coordenadasMariposa.top);
+let posicionLeftMariposa = Math.ceil(coordenadasMariposa.left);
+mariposa.style.position = 'fixed';
 
 
 function mueve(elemento, incrementa = 0){
         let n_evento = getRandomInt(1,3);
         if(n_evento === 1){
-                postop = posicion (postop, incrementa);
-                elemento.style.top = postop+"px";
+                posicionTopMariposa = posicion (posicionTopMariposa, incrementa);
+                elemento.style.top = posicionTopMariposa+"px";
         }
         if(n_evento === 2){
-                posleft = posicion(posleft,incrementa);
-                elemento.style.left = posleft+"px";
+                posicionLeftMariposa = posicion(posicionLeftMariposa,incrementa);
+                elemento.style.left = posicionLeftMariposa+"px";
         }
 }
 function posicion(posicion, incrementa = 0){
@@ -38,12 +38,12 @@ function getRandomInt(min, max) {
         return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled);
 }
 setInterval(function(){
-        mueve(test);
+        mueve(mariposa);
         },
     10
 );
 
-test.addEventListener(
+mariposa.addEventListener(
     "mouseover",
     (event) => {
             mueve(event.target,150);
