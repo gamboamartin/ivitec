@@ -1,9 +1,21 @@
 let mariposa = document.getElementById("mariposa");
-let coordenadasMariposa = mariposa.getBoundingClientRect();
-let posicionTopMariposa = Math.ceil(coordenadasMariposa.top);
-let posicionLeftMariposa = Math.ceil(coordenadasMariposa.left);
-mariposa.style.position = 'fixed';
+let pajarito = document.getElementById("pajarito");
 
+
+
+mariposa.style.position = 'fixed';
+pajarito.style.position = 'fixed';
+
+
+let coordenadasMariposa = mariposa.getBoundingClientRect();
+let coordenadasPajarito = pajarito.getBoundingClientRect();
+
+let posicionTopMariposa = 100;
+let posicionLeftMariposa = 150;
+
+
+let posicionTopPajarito = 200;
+let posicionLeftPajarito = 350;
 
 function mueve(elemento, incrementa = 0){
         let n_evento = getRandomInt(1,3);
@@ -16,9 +28,22 @@ function mueve(elemento, incrementa = 0){
                 elemento.style.left = posicionLeftMariposa+"px";
         }
 }
+
+function mueveP(elemento, incrementa = 0){
+        let n_evento = getRandomInt(1,3);
+        if(n_evento === 1){
+                posicionTopPajarito = posicion (posicionTopPajarito, incrementa);
+                elemento.style.top = posicionTopPajarito+"px";
+        }
+        if(n_evento === 2){
+                posicionLeftPajarito = posicion(posicionLeftPajarito,incrementa);
+                elemento.style.left = posicionLeftPajarito+"px";
+        }
+}
+
 function posicion(posicion, incrementa = 0){
         let suma_resta = getRandomInt(1,3);
-        let pixeles = getRandomInt(1,4);
+        let pixeles = getRandomInt(1,2);
 
         if(suma_resta === 1){
                 posicion = posicion + pixeles + incrementa;
@@ -39,8 +64,9 @@ function getRandomInt(min, max) {
 }
 setInterval(function(){
         mueve(mariposa);
+        mueveP(pajarito);
         },
-    10
+    20
 );
 
 mariposa.addEventListener(
@@ -54,6 +80,25 @@ mariposa.addEventListener(
 
         setTimeout(function(){
                 myModal.show(modalToggle);
+                },
+                300
+            );
+
+    },
+    false,
+);
+
+pajarito.addEventListener(
+    "mouseover",
+    (event) => {
+            mueveP(event.target,150);
+            const myModal = new bootstrap.Modal('#exampleModal', {
+                    keyboard: false
+            });
+            const modalToggle = document.getElementById('toggleMyModal');
+
+            setTimeout(function(){
+                        myModal.show(modalToggle);
                 },
                 300
             );

@@ -66,17 +66,23 @@
              aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
             <div class="accordion-body">
                 <p class="text-parrafo parrafo">
-                Comencemos entonces, somos un gran equipo dedicado a dar soluciones en tecnología, me imagino que
-                puedes preguntarte, que parte de tecnologia ?, hay un chingo de esas cosas ?, asi que siendo un poco
-                más específico y sin entrar tanto en tecnicismos, los cuales te los explicare mejor mas adelante.<br<<br>
-                Nosotros creamos software, programas, aplicaciones, paginas web, lo anterior usando herramientas y técnicas
-                de ultima generación, se oye mamalon verdad, bueno ya en serio si lo estamos haciendo, y como todo,
-                el saberlas usar no quiere decir que se pueda aprovechar a lo máximo, pero creeme que ademas de saberlas utilizar,
-                le sabemos damos un enfoque practico para su mejor aprovechamiento.<br><br>
-                    Qué mas hacemos,mmm te podemos ayudar a diagnosticar el estado de tu empresa enfocado en
-                    tecnologías de la información, igual que antes,y que chingados es eso o a que te refieres,
-                    bueno, aqui podemos ayudarte a revisar, planear, ejecutar y mantener tu infrestructura
-                informática en temas de seguirdad física y lógica, lo cual se vera reflejado en la productividad de
+
+                    <img class="cursor pajarito" id="pajarito" src="img/pajarito.blanco.webp" alt="Bienvenido"
+                         data-bs-toggle="modal" data-bs-target="#ModalBienvenido">
+
+                    Comencemos entonces, somos un gran equipo dedicado a dar soluciones en tecnología, me imagino que
+                    puedes preguntarte, y en que se especializarán estos muchachones si hay muchísimas áreas?, asi que
+                    siendo un poco más específico y sin entrar tanto en tecnicismos, los cuales te los explicaré mejor
+                    mas adelante.<br<<br>
+                    Nosotros creamos software, programas, aplicaciones, páginas web, lo anterior usando herramientas y
+                    técnicas de última generación, se oye mamalon verdad, bueno ya en serio si lo estamos haciendo,
+                    y como todo, el saberlas usar no quiere decir que se pueda aprovechar a lo máximo,
+                    pero creeme que ademas de saberlas utilizar, le sabemos damos un enfoque práctico para su
+                    mejor aprovechamiento.<br><br>
+                    Qué mas hacemos,también te podemos ayudar a diagnosticar el estado de tu empresa enfocado con una
+                    visión basada en tecnologías de la información, igual que antes,y a qué te refieres con eso ?,
+                    bueno, aqui podemos ayudarte a revisar, planear, ejecutar y mantener tu infrestructura informática
+                    en temas de seguridad física y lógica, lo cual se vera reflejado en la productividad de
                     tu equipo de trabajo. <br><br>
                  Ahora sí, vamos con el detalle que tal, <class class="liga" data-bs-target="#flush-collapseThree" data-bs-toggle="collapse">
                         <b>Acompañame y te muestro.</b>
