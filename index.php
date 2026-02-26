@@ -18,6 +18,9 @@
 
 <div class="accordion accordion-flush" id="accordionFlush">
 
+    <img class="cursor mariposa" id="mariposa" src="img/mariposablanco.webp" alt="Bienvenido"
+         data-bs-toggle="modal" data-bs-target="#ModalBienvenido">
+
     <div class="accordion-item border-0">
 
         <h2 class="accordion-header " id="flush-headingBienvenido">
@@ -36,17 +39,19 @@
             <div class="accordion-body ">
 
                 <p class="text-parrafo parrafo">
-                    <img class="cursor mariposa" id="mariposa" src="img/mariposablanco.webp" alt="Bienvenido"
-                         data-bs-toggle="modal" data-bs-target="#ModalBienvenido">
-                    Que tal, ¿Cómo estás?, bienvenido, ponte cómodo, te prometo que haré lo posible por no aburrirte,
-                    también te pudiera decir que no intentaré venderte algo, pero sería mentirte, realmente si lo
-                    intentaré, pero trataré de hacerlo de una forma clara, honesta y
-                    transparente, porque ésto somos. Y en realidad espero que al final de tu viaje por mi sitio,
-                    pues nos hayas conocido un poco mejor. <br><br>
 
-                    ¡Muy bien! Si llegaste hasta aquí pues,
+
+                    ¿Qué tal? ¿Cómo estás?
+                    Bienvenido, ponte cómodo. Prometo hacer lo posible por no aburrirte.
+                    También podría decirte que no voy a intentar venderte algo… pero estaría mintiendo.
+                    La verdad es que sí lo intentaré. Solo que quiero hacerlo de una forma clara,
+                    honesta y transparente, porque eso es lo que somos.
+                    Y sinceramente espero que, al final de tu recorrido por mi sitio, sientas que nos conoces un
+                    poco mejor.<br><br>
+
+                    Muy bien… si llegaste hasta aquí, entonces dime:
                     <class class="liga" data-bs-target="#flush-collapseTwo" data-bs-toggle="collapse">
-                        <b>¿Que te parece si nos conocemos?</b>
+                        <b>¿Qué te parece si nos conocemos?</b>
                     </<class>
                 </p>
             </div>
@@ -67,25 +72,35 @@
             <div class="accordion-body">
                 <p class="text-parrafo parrafo">
 
-                    <img class="cursor pajarito" id="pajarito" src="img/pajarito.blanco.webp" alt="Bienvenido"
-                         data-bs-toggle="modal" data-bs-target="#ModalBienvenido">
 
-                    Comencemos entonces, somos un gran equipo dedicado a dar soluciones en tecnología, me imagino que
-                    puedes preguntarte, y en que se especializarán estos muchachones si hay muchísimas áreas?, asi que
-                    siendo un poco más específico y sin entrar tanto en tecnicismos, los cuales te los explicaré mejor
-                    mas adelante.<br<<br>
-                    Nosotros creamos software, programas, aplicaciones, páginas web, lo anterior usando herramientas y
-                    técnicas de última generación, se oye mamalon verdad, bueno ya en serio si lo estamos haciendo,
-                    y como todo, el saberlas usar no quiere decir que se pueda aprovechar a lo máximo,
-                    pero creeme que ademas de saberlas utilizar, le sabemos damos un enfoque práctico para su
-                    mejor aprovechamiento.<br><br>
-                    Qué mas hacemos,también te podemos ayudar a diagnosticar el estado de tu empresa enfocado con una
-                    visión basada en tecnologías de la información, igual que antes,y a qué te refieres con eso ?,
-                    bueno, aqui podemos ayudarte a revisar, planear, ejecutar y mantener tu infrestructura informática
-                    en temas de seguridad física y lógica, lo cual se vera reflejado en la productividad de
-                    tu equipo de trabajo. <br><br>
-                 Ahora sí, vamos con el detalle que tal, <class class="liga" data-bs-target="#flush-collapseThree" data-bs-toggle="collapse">
-                        <b>Acompañame y te muestro.</b>
+
+                    Comencemos entonces.
+                    Somos un gran equipo dedicado a dar soluciones en tecnología. Y sí, seguro te estarás preguntando:
+                    “¿Y en qué se especializan estos muchachones si hay muchísimas áreas?”
+                    Buena pregunta. <br><br>
+
+                    Sin entrar todavía en tantos tecnicismos —eso te lo explico más adelante— te lo digo claro:
+                    Nosotros creamos software, programas, aplicaciones y páginas web.
+                    Y todo esto lo hacemos usando herramientas y técnicas de última generación.
+                    Se oye mamalón, ¿verdad? 😄 <br><br>
+
+                    Bueno, ya en serio… sí lo estamos haciendo.
+                    Porque como todo, saber usar una herramienta no significa necesariamente sacarle el máximo provecho.
+                    Pero créeme, además de saber utilizarlas, les sabemos dar un enfoque práctico para realmente
+                    aprovecharlas al máximo.<br><br>
+
+                    ¿Y qué más hacemos?<br><br>
+                    También podemos ayudarte a diagnosticar el estado de tu empresa con una visión enfocada en
+                    tecnologías de la información.<br><br>
+
+                    ¿Y eso qué significa exactamente?<br><br>
+
+                    Significa que podemos ayudarte a revisar, planear, ejecutar y mantener tu infraestructura
+                    informática, tanto en seguridad física como en seguridad lógica. Y todo eso se refleja
+                    directamente en algo que sí importa: la productividad de tu equipo.<br><br>
+
+                    Ahora sí… vamos al detalle. <class class="liga" data-bs-target="#flush-collapseThree" data-bs-toggle="collapse">
+                        <b>Acompáñame y te muestro.</b>
                     </<class>
                 </p>
             </div>
@@ -102,10 +117,73 @@
         </h2>
         <div id="flush-collapseThree" class="accordion-collapse collapse min-vh-100 bg-black text-white"
              aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-                happening here in terms of content, but just filling up the space to make it look, at least at first
-                glance, a bit more representative of how this would look in a real-world application.
+            <div class="accordion-body">
+                <p class="text-parrafo parrafo">
+                Si algo tenemos claro es esto: la tecnología no sirve de nada si no resuelve problemas reales.<br><br>
+                Nosotros no vendemos “cosas tecnológicas bonitas”.
+                Diseñamos, implementamos y optimizamos soluciones informáticas que realmente funcionan y generan resultados.
+                Aquí te contamos cómo podemos ayudarte:<br><br>
+                💻 Desarrollo de Software a la Medida<br><br>
+                Creamos soluciones digitales diseñadas específicamente para tu empresa.<br><br>
+                Sistemas administrativos<br><br>
+                Plataformas internas<br><br>
+                Automatización de procesos<br><br>
+                Integraciones entre sistemas<br><br>
+                Aplicaciones web y móviles<br><br>
+                No usamos soluciones genéricas cuando tu negocio necesita algo pensado exactamente para ti.<br><br>
+                    Desarrollo de Páginas Web y Aplicaciones<br><br>
+                Tu presencia digital importa. Y mucho.<br><br>
+                Sitios web corporativos<br><br>
+                Tiendas en línea<br><br>
+                Portales personalizados<br><br>
+                Landing pages estratégicas<br><br>
+                Aplicaciones web modernas<br><br>
+                Diseñamos con enfoque en rendimiento, experiencia de usuario y objetivos de negocio.<br><br>
+                 Infraestructura y Soporte Informático<br><br>
+                La tecnología debe ser una herramienta, no un problema.<br><br>
+                Te ayudamos a:<br><br>
+                Diseñar y optimizar tu infraestructura tecnológica<br><br>
+                Implementar servidores y redes<br><br>
+                Gestionar equipos y sistemas<br><br>
+                Mantener tu operación estable y segura<br><br>
+                Brindar soporte técnico especializado<br><br>
+                Nos enfocamos en prevención, no solo en apagar incendios.<br><br>
+                 Seguridad Informática (Física y Lógica)<br><br>
+                La información es uno de los activos más valiosos de tu empresa.<br><br>
+                Te apoyamos en:<br><br>
+                Diagnóstico de seguridad tecnológica<br><br>
+                Implementación de controles de acceso<br><br>
+                Protección de redes y sistemas<br><br>
+                Políticas de seguridad informática<br><br>
+                Respaldo y recuperación de información<br><br>
+                La seguridad no es un lujo, es una necesidad.<br><br>
+                 Diagnóstico Tecnológico Empresarial<br><br>
+                A veces el problema no es que falte tecnología, sino que no está bien organizada.<br><br>
+                Analizamos tu empresa desde una perspectiva tecnológica para:<br><br>
+                Detectar áreas de mejora<br><br>
+                Optimizar procesos<br><br>
+                Reducir riesgos<br><br>
+                Mejorar productividad<br><br>
+                Planear crecimiento tecnológico sostenible<br><br>
+                Te ayudamos a tomar decisiones con claridad.<br><br>
+                 Optimización y Mejora de Procesos<br><br>
+                No solo desarrollamos, también mejoramos lo que ya tienes.<br><br>
+                Revisión de sistemas actuales<br><br>
+                Reestructuración tecnológica<br><br>
+                Integración de herramientas<br><br>
+                Automatización estratégica<br><br>
+                Si algo puede hacerse mejor, lo hacemos mejor.<br><br>
+                Nuestra Forma de Trabajar<br><br>
+                No prometemos magia.<br><br>
+                Prometemos claridad, honestidad y resultados.<br><br>
+                Analizamos tu situación.<br><br>
+                Te hablamos claro.<br><br>
+                Proponemos soluciones viables.<br><br>
+                Y ejecutamos con enfoque práctico.<br><br>
+                Porque dominar la tecnología no es solo saber usar herramientas…
+                es saber cuándo, cómo y por qué aplicarlas.
+                </p>
+
             </div>
         </div>
     </div>
